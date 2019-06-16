@@ -65,7 +65,7 @@ $(function () {
             first = _this;
         }else{
             let number1 = first.data('number'),number2 = _this.data('number')
-            if(number1 + number2 > 10){
+            if(number1 + number2 >= 14){
                 $('.active').animate({top:0,left:700,opacity:0},function () {
                     $(this).remove();
                 })
